@@ -8,14 +8,23 @@
   "parserOptions": {
     "project": ["./tsconfig.json"]
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "react"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/all",
+    "plugin:react/all",
     "prettier"
   ],
   "rules": {
     "@typescript-eslint/naming-convention": "off",
-    "@typescript-eslint/prefer-readonly-parameter-types": "off"
+    "@typescript-eslint/prefer-readonly-parameter-types": "off",
+    "react/function-component-definition": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-no-literals": "off",
+    "react/jsx-max-depth": ["error", { "max": 5 }],
+    "react/jsx-pascal-case": ["warn"],
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off"
   }
 }

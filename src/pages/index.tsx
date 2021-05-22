@@ -23,13 +23,13 @@ const Index = (): JSX.Element => (
         <Code>typescript</Code>.
       </Text>
 
-      <List spacing={3} my={0}>
+      <List my={0} spacing={3}>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
           <ChakraLink
-            isExternal
-            href="https://chakra-ui.com"
             flexGrow={1}
+            href="https://chakra-ui.com"
+            isExternal
             mr={2}
           >
             Chakra UI <LinkIcon />
@@ -37,7 +37,7 @@ const Index = (): JSX.Element => (
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://nextjs.org" flexGrow={1} mr={2}>
+          <ChakraLink flexGrow={1} href="https://nextjs.org" isExternal mr={2}>
             Next.js <LinkIcon />
           </ChakraLink>
         </ListItem>
