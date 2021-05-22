@@ -46,7 +46,13 @@ const Index = (): JSX.Element => (
 
     <DarkModeSwitch />
     <Footer>
-      <Text>Next ❤️ Chakra</Text>
+      <Text>
+        Next
+        <span aria-label="heart" role="img">
+          ❤️
+        </span>
+        Chakra
+      </Text>
     </Footer>
     <CTA />
   </Container>
