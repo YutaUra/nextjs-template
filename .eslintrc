@@ -8,11 +8,17 @@
   "parserOptions": {
     "project": ["./tsconfig.json"]
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "plugins": ["@typescript-eslint", "react"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/all",
     "plugin:react/all",
+    "plugin:react-hooks/recommended",
     "prettier"
   ],
   "rules": {
