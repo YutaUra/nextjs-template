@@ -1,5 +1,6 @@
-import { Flex, FlexProps } from '@chakra-ui/react'
+import type { FlexProps } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 
-export const Footer = (props: FlexProps) => (
+export const Footer = (props: FlexProps): JSX.Element => (
   <Flex as="footer" py="8rem" {...props} />
 )
