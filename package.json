@@ -1,6 +1,9 @@
 {
   "name": "with-chakra-ui-typescript",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.2.0"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
