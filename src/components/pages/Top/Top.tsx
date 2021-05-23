@@ -7,14 +7,14 @@ import {
   ListItem,
   Text,
 } from '@chakra-ui/react'
-import { Container } from '~/components/atoms/Container/Container'
-import { DarkModeSwitch } from '~/components/atoms/DarkModeSwitch/DarkModeSwitch'
-import { Footer } from '~/components/atoms/Footer/Footer'
-import { Main } from '~/components/atoms/Main/Main'
-import { CTA } from '~/components/molecule/CTA/CTA'
-import { Hero } from '~/components/molecule/Hero/Hero'
+import { Container } from '~/components/atoms/Container'
+import { DarkModeSwitch } from '~/components/atoms/DarkModeSwitch'
+import { Footer } from '~/components/atoms/Footer'
+import { Main } from '~/components/atoms/Main'
+import { CTA } from '~/components/molecule/CTA'
+import { Hero } from '~/components/molecule/Hero'
 
-export const Index = (): JSX.Element => (
+export const Top = (): JSX.Element => (
   <Container height="100vh">
     <Hero />
     <Main>
@@ -57,5 +57,3 @@ export const Index = (): JSX.Element => (
     <CTA />
   </Container>
 )
-
-export default Index
