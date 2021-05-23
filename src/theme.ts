@@ -12,7 +12,18 @@ const breakpoints = createBreakpoints({
 
 const theme = extendTheme({
   colors: {
-    black: '#16161D',
+    lime: {
+      50: '#f2ffde',
+      100: '#defcb2',
+      200: '#caf884',
+      300: '#b5f554',
+      400: '#a1f226',
+      500: '#88d90d',
+      600: '#69a905',
+      700: '#4a7801',
+      800: '#2b4800',
+      900: '#0b1900',
+    },
   },
   fonts,
   breakpoints,
