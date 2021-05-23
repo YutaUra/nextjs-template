@@ -1,5 +1,5 @@
 import { Button, Link as ChakraLink } from '@chakra-ui/react'
-import { Container } from './Container'
+import { Container } from '../../atoms/Container/Container'
 
 export const CTA = (): JSX.Element => (
   <Container
